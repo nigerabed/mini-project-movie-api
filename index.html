@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+    <h1>Movie Details</h1>
+    <div class="searchBar">
+      <input type="text" id="movieInput" placeholder="enter mmovie" />
+      <button onclick="handleSearch()">Search</button>
+    </div>
+
+    <div id="movieConatiner"></div>
+
+    <div class="pagination" id="pagination">
+      <button id="prevBtn" onclick="prevPage()">Previous</button>
+      <button id="nextBtn" onclick="nextPage()">Next</button>
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
